@@ -1,0 +1,59 @@
+
+/* Index Page */
+
+    .searchBar{
+        margin-top: 10%;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .indexLogo{
+        width: 112px;
+        height: 90px;
+    }
+    .indexTitle{
+        text-align: center;
+        vertical-align: center;
+        line-height: 90px;
+    }
+    .indexHeader{
+        background-color: black;
+        padding: 2%;
+        color: white;
+    }
+    .indexHeader a{
+        color: white;
+        padding: 1%;
+    }
+    .indexHeader a:hover{
+        background-color: whitesmoke;
+        border-radius: 10px;
+        color: black;
+        text-decoration: none;
+    }
+
+/* Search Results */
+    .topBar{
+        margin-top: 5%;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .searchButton{
+        margin-top: 5%;
+        height: 5%;
+    }
+    .searchInput{
+        margin-top:5%;
+    }
+    .resultsCard{
+        width: 60%;
+        margin-left: 20%;
+        margin-bottom: 3.5%;
+    }
+    .resultTitle{
+        color: black;
+    }
+    .resultLinkInfo{
+        font-size: 68%;
+        color: gray;
+        padding-bottom: 3%;
+    }
