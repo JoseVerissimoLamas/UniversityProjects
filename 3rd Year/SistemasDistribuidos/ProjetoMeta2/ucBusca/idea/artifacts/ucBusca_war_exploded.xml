@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ucBusca:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ucBusca</output-path>
+    <root id="archive" name="ucBusca.war">
+      <element id="javaee-facet-resources" facet="ucBusca/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ucBusca" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib_tcws" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

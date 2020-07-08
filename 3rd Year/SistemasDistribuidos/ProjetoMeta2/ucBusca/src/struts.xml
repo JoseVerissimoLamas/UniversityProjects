@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- The core configuration file for the framework is the default (struts.xml) file
+and should reside on the classpath of the webapp (generally /WEB-INF/classes). -->
+
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+    <!-- devMode equals debug information and reload everything for every request -->
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.ui.theme" value="simple" />
+    <constant name="struts.action.excludePattern" value="/ws"/>
+
+    <package name="ucBusca" extends="struts-default">
+        
+        <default-action-ref name="index"/>
+
+        <global-results>
+            <result name="error">/error.jsp</result>
+        </global-results>
+
+        <!-- all exceptions not caught by the application will lead to error.jsp -->
+        <global-exception-mappings>
+            <exception-mapping exception="java.lang.Exception" result="error" />
+        </global-exception-mappings>
+
+        <!-- Index -->
+            <action name="index" class="ucBusca.action.ConnectAction" method="execute">
+                <result name="success">/index.jsp</result>
+            </action>
+        <!-- Pesquisa -->
+            <action name="search" class="ucBusca.action.SearchAction" method="execute">
+                <result name="success">/search.jsp</result>
+            </action>
+        <!-- Search parent Page -->
+            <action name="searchAparent" class="ucBusca.action.ConnectAction">
+                <result name="success">/searchParent.jsp</result>
+            </action>
+        <!-- Pesquisa Parent Url -->
+            <action name="searchParents" class="ucBusca.action.GetParentUrlsAction" method="execute">
+                <result name="success">/search.jsp</result>
+            </action>
+        <!-- Index Page -->
+            <action name="indexAnUrl" class="ucBusca.action.ConnectAction">
+                <result name="success">/indexUrl.jsp</result>
+            </action>
+        <!-- Indexar -->
+            <action name="indexUrl" class="ucBusca.action.IndexAction" method="execute">
+                <result name="success">/indexing.jsp</result>
+            </action>
+        <!-- Register -->
+            <action name="register" class="ucBusca.action.RegisterAction" method="execute">
+                <result name="fail">/register.jsp</result>
+                <result name="success">/index.jsp</result>
+                <result name="input">/register.jsp</result>
+            </action>
+        <!--Login -->
+            <action name="login" class="ucBusca.action.LoginAction" method="execute">
+                <result name="fail">/login.jsp</result>
+                <result name="success">/index.jsp</result>
+                <result name="input">/login.jsp</result>
+            </action>
+        <!-- Get History -->
+            <action name="history" class="ucBusca.action.GetHistoryAction" method="execute">
+                <result name="fail">/index.jsp</result>
+                <result name="success">/search.jsp</result>
+            </action>
+        <!--Logout-->
+            <action name="logout" class="ucBusca.action.LogoutAction" method="execute">
+                <result name="fail">/logout.jsp</result>
+                <result name="success">/index.jsp</result>
+            </action>
+        <!-- Give Premission -->
+            <action name="givep" class="ucBusca.action.GivePremissionAction" method="execute">
+                <result name="success">/index.jsp</result>
+            </action>
+        <!-- Give Prev Page -->
+            <action name="givepage" class="ucBusca.action.ConnectAction">
+                <result name="success">/premissions.jsp</result>
+            </action>
+        <!-- Give Premission -->
+            <action name="givep" class="ucBusca.action.GivePremissionAction" method="execute">
+                <result name="success">/index.jsp</result>
+            </action>
+        <!-- Give Prem Page -->
+            <action name="givepage" class="ucBusca.action.ConnectAction">
+                <result name="success">/premissions.jsp</result>
+            </action>
+        <!--Login with Facebook-->
+            <action name="facebook" class="ucBusca.action.FacebookAction" method="execute">
+                <result name="redirect" type="redirect">${authorizationUrl}</result>
+            </action>
+            <action name="token" class="ucBusca.action.ValidateFacebookAction" method="execute">
+                <result name="success">/index.jsp</result>
+                <result name="fail">/login.jsp</result>
+            </action>
+        <!--Yandex Translate-->
+            <action name="yandex" class="ucBusca.action.YandexAction" method="execute">
+                <result name="success">/yandexTranslated.jsp</result>
+            </action>
+        <!--Share on Facebook-->
+            <action name="sharePage" class="ucBusca.action.SharePageAction" method="execute">
+                <result name="redirect" type="redirect">${shareUrl}</result>
+            </action>
+        <!--Show Remote Results -->
+            <action name="remoteAction" class="ucBusca.action.SearchAction" method="execute">
+                <result name="success">/.search.jsp</result>
+            </action>
+        <action name="adminpage" class="ucBusca.action.ConnectAction">
+            <result name="success">/admin.jsp</result>
+        </action>
+    </package>
+
+</struts>

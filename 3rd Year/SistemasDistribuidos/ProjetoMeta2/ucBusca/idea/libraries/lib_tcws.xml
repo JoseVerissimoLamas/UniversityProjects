@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="lib_tcws">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/annotations-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/tomcat-dbcp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/tomcat-util-scan.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/tyrus-standalone-client-1.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/tomcat-coyote.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/tomcat-jdbc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/jasper-el.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/catalina-ant.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/jasper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/ecj-4.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/catalina-ha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/catalina-storeconfig.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/tomcat-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/tomcat-websocket.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/el-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/catalina-tribes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/websocket-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/tomcat-jni.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/catalina.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/tomcat-util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/tomcat-juli-8.5.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/jsp-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib_tcws/jaspic-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
