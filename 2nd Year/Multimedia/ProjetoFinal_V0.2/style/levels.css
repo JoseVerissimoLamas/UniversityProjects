@@ -1,0 +1,119 @@
+canvas{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: relative;
+	border: 1px solid black;
+}
+
+body{
+	position: relative;
+}
+
+/*Pause Menu Contents*/
+
+.confirmButtons button {
+	position: absolute;
+	cursor: pointer;
+	background-color: inherit;
+	border: none;
+	outline: none;
+	padding: 0px;
+	border-radius: 10%;
+}
+
+.confirmButtons button img{
+	margin: 0px;
+	height: 100px;
+	width: 100px;
+}
+
+#yes{
+	margin-left:38%;	
+	top: 55%;
+	height: 100px;
+	width: 100px;
+}
+
+#no{
+	margin-left:49%;	
+	top: 55%;
+	width: 100px;
+	height: 100px;
+}
+
+.pauseBoxMenu button{
+	position: absolute;
+	background-color: inherit;
+	border: none;
+	outline: none;
+	padding: 0px;
+}
+
+.pauseBoxMenu button img{
+	margin: 0px;
+	height: 35%;
+	width: 60%;
+}
+
+#pauseBox{
+	border: none;
+	outline: none;
+	background: none;
+	margin-left:25%;	
+	top: 26%;
+}
+
+/*Game Over Menu Contents*/
+
+.confirmGameOverButtons button {
+	position: absolute;
+	cursor: pointer;
+	background-color: inherit;
+	border: none;
+	outline: none;
+	padding: 0px;
+	border-radius: 10%;
+}
+
+.confirmGameOverButtons button img{
+	margin: 0px;
+	height: 100px;
+	width: 100px;
+}
+
+#yesGameOver{
+	margin-left:43%;	
+	top: 55%;
+	height: 90px;
+	width: 80px;
+}
+
+#noGameOver{
+	margin-left:51%;	
+	top: 55%;
+	width: 100px;
+	height: 100px;
+}
+
+.gameOverBoxMenu button{
+	position: absolute;
+	background-color: inherit;
+	border: none;
+	outline: none;
+	padding: 0px;
+}
+
+.gameOverBoxMenu button img{
+	margin: 0px;
+	height: 35%;
+	width: 60%;
+}
+
+#gameOverBox{
+	border: none;
+	outline: none;
+	background: none;
+	margin-left:25%;	
+	top: 26%;
+}

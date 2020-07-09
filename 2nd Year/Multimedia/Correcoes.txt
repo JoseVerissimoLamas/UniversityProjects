@@ -1,0 +1,30 @@
+
+- Quando perde as quatro vidas e volta ao inicio passa um nível. (se perder no nivel 2 volta o incio e quando 
+chego ao fim do nivel 1 passa para o nivel 3, se perder no nivel 3 volto ao nivel 1 e quando chego ao final passa para (Solved, I beleive)
+o nivel 4)
+
+Problema
+| - Som das musicas nao está a guardar, se quiser sem musica meto nas opcoes e se for por jogar esta com musica. 
+Resolução
+| - Cookies de sons (Feito)
+
+- Não é possivel recuperar progresso do utilizador ja registado! (Feito)
+
+
+- Botoes pausa descentrados (NOT A PRIORITY DONT KILL ME) ((DONEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)
+
+- Tem de ver sempre animaçoes intermedias (nao sei se era suposto mas pode ficar its okay) [Não é verdade, botão de SALTAR está a funcionar! 
+											    Quando perde já não tem que ver a primeira que era a mais longa, ~
+											    a partir daí vai apanhá-las todas novamenete]
+
+- As musicas nao estao em loop: Quando o tempo da musica acaba ja nao ha mais musica acho que nao é importante porque
+nao vamos demorar 3 minutos a mostrar cada nivel ao prof. (Concordo :) )
+
+- Falta acabar o nivel 5 com a animação e depois ir para o menup (Não testei por razões óbvias mas deverá estar!!!)
+
+- Menu de Game Over (AGAIN ... DONT KILL ME) (DONEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)
+
+- Lasers finais estao a fazer pisca pisca nao deviam... deve faltar alguma coisa no codigo quando copiei do outro ficheiro
+so que ainda nao vi. Vejo amanha. (Pisca pisca is not my department Ehehe!)
+
+Nota: Foi estas coisas que detetei entretanto... acho que nao deve haver nada de mais. Contudo amanha testo novamente.
