@@ -1,0 +1,12 @@
+1 W          
+2 W_U  
+3 W_D
+4 SIT           
+5 STAND          
+6 LAY           
+7 STAND_SIT      
+8 SIT_STAND      
+9 SIT_LIE        
+10 LIE_SIT        
+11 STAND_LIE      
+12 LIE_STAND      
