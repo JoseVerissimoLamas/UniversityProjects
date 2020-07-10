@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1527459625 source:c:\users\zevl\desktop\internet explorer\projetoppp\projeto_1ano\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+
