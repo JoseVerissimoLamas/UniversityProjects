@@ -1,0 +1,7 @@
+10, 20
+Prod_A, Prod_B, Prod_C
+10
+10, 5, 1
+
+1
+nome_armazem xy: 5, 5 prod: Prod_A, 3, Prod_C, 2
